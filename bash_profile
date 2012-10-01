@@ -8,7 +8,8 @@ export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/Cellar/python/2.7/bin:$PA
 export RUBYOPT=rubygems
 
 # Git
-source /usr/local/etc/bash_completion.d/git-completion.bash # completion
+source /usr/local/etc/bash_completion.d/git-completion.bash
+source /usr/local/etc/bash_completion.d/git-prompt.sh
 
 # Prompt with git branch
 export PS1='$(__git_ps1 "(%s) ")\w> '
