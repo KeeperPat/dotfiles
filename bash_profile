@@ -1,5 +1,6 @@
 # RVM
 if [[ -s /Users/patrick/.rvm/scripts/rvm ]] ; then source /Users/patrick/.rvm/scripts/rvm ; fi
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
 
 # Homebrew
 export PATH="/usr/local/bin:/usr/local/sbin:/usr/local/Cellar/python/2.7/bin:$PATH"
